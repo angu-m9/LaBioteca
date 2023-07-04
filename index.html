@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Main Bioteca</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header__section">
+            <figure class="header__figure">
+                <img class="header__image desktop" src="/imagenes/Logo blanco.png" alt="Logo de la empresa en blanco y verde">
+                <img class="header__image mobile" src="/imagenes/Logo blanco.png" alt="Logo de la empresa en blanco y verde">
+            </figure>
+            <div class="header__menu mobile">
+                <img src="images/img_4.png" alt="Menu"> /*falta imagen*/
+            </div>
+        </section>
+        <div class="header__search desktop">
+            <button class="header__contact-button">CONTÁCTANOS</button>
+            <button class="header__search-button">
+                <img class="header__search-button-img" src="/imagenes/lupa.png" alt="Buscar">
+            </button>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__list-link" href="">¿QUIÉNES SOMOS?</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="">SERVICIOS</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="">PRODUCTORES</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="">BLOG</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="">ÁREA DE CLIENTE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+    <div class="container">
+        <section class="main-content__intro">
+            <img class="main-picture_intro" src="/imagenes/Picture_intro.png">
+            <h1 class="intro__heading">NUTRIENDO EL PRESENTE, SEMBRANDO EL FUTURO</h1>
+            <form>
+                <h2>Te llamamos</h2>
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>  
+                    <li>
+                        <label for="surname">Apellidos:</label>
+                        <input type="text" id="surname" name="user_surname">
+                    </li>
+                    <li>
+                        <label for="phone">Teléfono:</label>
+                        <input type="text" id="phone" name="user_phone">
+                    </li>
+                    <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </div>
+        <section class="main-content__about">
+            <article class="about__article">
+                <h2 class="article__heading">¿Quiénes somos?</h2>
+                <p class="article__text">La Bioteca es una empresa que lucha contra el cambio climático asesorando a agricultores y ganaderos
+                    en prácticas sostenibles. Utilizamos la tecnología para maximizar los resultados, promoviendo la
+                    reducción de la huella de carbono, la gestión eficiente del agua y la diversificación de cultivos.
+                    La Bioteca contribuye a la adopción de prácticas sostenibles en la agricultura y ganadería,
+                    preservando recursos y mitigando el cambio climático. </p>
+            </article>
+            <figure class="about__figure">
+                <img class="figure__logo" src="/imagenes/LOGO AZUL (1).png" alt="Logo Bioteca">
+                <img class="figure__image" src="/imagenes/Quienes somos.png" alt="img quienes somos">
+            </figure>
+        </section>
+        <section class="main-content__services">
+            <h2 class="services__heading"></h2>
+            <section class="services__item-list">
+                <div class="item-list__item">
+                    <img class="item__image" src="" alt="">
+                    <p class="item__text"></p>
+                </div>
+                <!-- Repite los elementos div con la clase "item-list__item" según sea necesario -->
+                <h2 class="item-list__subheading">SERVICIOS</h2>
+            </section>
+            <section class="services">
+                <section>
+                    <img src="/imagenes/logo 1.png" alt="">
+                    <p>Implementación de técnicas de agroganadería sostenible con el medioambiente. </p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 2.png" alt="">
+                    <p>Instalación, gestión y control de energías renovables</p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 3.png" alt="">
+                    <p>Utilización de satélites para la monitorización precisa de cultivos y ganado.</p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 4.png" alt="">
+                    <p>Soluciones de optimización SEO, programas de fidelización de clientes y gestion de la reputación online. </p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 5.png" alt="">
+                    <p>Gestión eficiente de los recursos hídricos, a través del control monitorización, recolección, almacenamiento y distribución del agua. </p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 6.png" alt="">
+                    <p>Certificamos y garantizamos el impacto de cero huella de carbono en el proceso de producción y transporte.</p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 7.png" alt="">
+                    <p>Implementación de técnicas éticas, sostenibles, de bienestar animal, asi como la trazabilidad del producto, obteniendo la certificación de Comercio Justo.</p>
+                </section>
+                <section>
+                    <img src="/imagenes/logo 8.png" alt="">
+                    <p>Servicios integrales de comercio electrónico y marketing en redes sociales, potenciado y fortaleciendo la presencia en la red. </p>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__info">
+            <div class="info__block info__block--location">
+                <p class="block__title">¿Dónde estamos?</p>
+                <span class="block__icon"><img class="block__icon-adress" src="/imagenes/Address.png" alt="addres location picture"></span>
+                <p class="block__text">C.San Bernando, 101 Madrid</p>
+            </div>
+            <div class="info__block info__block--work-with-us">
+                <p class="block__title">¿Por qué trabajar con la Bioteca?</p>
+                <p class="block__text">Juntos sembramos el futuro</p>
+                <button class="block__button"><a class="button-cta" href="">TE LLAMAMOS</a></button>
+            </div>
+            <div class="info__block info__block--social-media">
+                <p class="block__title">Sigue a @labioteca:</p>
+                <div class="block__icon-group">
+                    <span class="icon-group__icon"><img class="icon-facebook" src="/imagenes/Facebook.png"
+                            alt="facebook social media link"></span>
+                    <span class="icon-group__icon"><img class="icon-twitter" src="/imagenes/Twitter Squared.png"
+                            alt="twitter social media link"></span>
+                    <span class="icon-group__icon"><img class="icon-instagram" src="/imagenes/Instagram.png"
+                            alt="instagram social media link"></span>
+                    <span class="icon-group__icon"><img class="icon-tiktok" src="/imagenes/TikTok.png" alt="tiktok social media link"></span>
+                </div>
+                <div class="block__contact-info">
+                    <span class="contact-info__icon"><img class="img-mail"  src="/imagenes/Mail.png" alt=""></span>
+                    <p class="contact-info__email">labioteca@info.es</p>
+                </div>
+            </div>
+        </section>
+        <nav class="nav__container">
+            <ul class="container__list">
+                <li class="list__item"><a class="item__link" href="">Condiciones de uso</a></li>
+                <li class="list__item"><a class="item__link" href="">Política de privacidad</a></li>
+                <li class="list__item"><a class="item__link" href="">Política de cookies</a></li>
+                <li class="list__item"><a class="item__link" href="">2023. La Bioteca S.A.</a></li>
+            </ul>
+        </nav>
+    </footer>
+<script src="/header.js"></script>
+</body>
+</html>
